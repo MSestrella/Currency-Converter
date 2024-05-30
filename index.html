@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+<!-- Link HTML file to the CSS stylesheet -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<!-- Start body -->
+<body>
+
+	
+
+
+<div id="calculator">
+    <img id="money-image" src="dollar-currency-money-us-dollar-47344.jpeg"> 
+	
+<header><b>Currency Converter</b></header>
+
+<div id="input">
+<label>Euro:</label>
+<input id="euro" type="number" size="20"onkeyup="convertCurrency('euro')">
+
+</div>
+
+
+<div id="input">
+<label>British Pound:</label>
+<input id="pound" type="number" size="20"onkeyup="convertCurrency('pound')">
+</div>
+
+
+<!-- Create input field -->
+<div id="input">
+<label>Canadian Dollar:</label>
+<input id="cad" type="number" size="20"onkeyup="convertCurrency('cad')">
+</div>
+
+
+<!-- Create input field -->
+<div id="input">
+<label>Indian Rupee:</label>
+<input id="rupee" type="number" size="20"onkeyup="convertCurrency('rupee')">
+</div>
+
+
+<!-- Create input field -->
+<div id="input">
+<label>Bitcoin:</label>
+<input id="bitcoin" type="number" size="20"onkeyup="convertCurrency('bitcoin')">   
+</div>
+
+
+<!-- Create button -->
+<button id="clear" type="button" onclick="reset()">Clear Fields</button>
+<footer>
+<p>*Rates as of [30/05/2024]</p>
+</footer>
+</div>
+<!-- Start Javascript -->
+<script src="main.js"></script>
+</body>
+</html>
+
